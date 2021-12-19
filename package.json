@@ -4,8 +4,8 @@
   "description": "A template for the generator of creating a front-end app based on Webpack/Rollup.",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "",
-    "build": ""
+    "start": "webpack-dev-server --progress",
+    "build": "webpack --progress"
   },
   "repository": "https://github.com/cclintris/create-WebRoll-app-template.git",
   "author": "cclintris <181250083@smail.nju.edu.cn>",
